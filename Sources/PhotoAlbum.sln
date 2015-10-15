@@ -5,6 +5,18 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum", "PhotoAlbum\PhotoAlbum.csproj", "{0DB5E2BB-AA0F-4424-8A6F-46C056CE26BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Library", "PhotoAlbum.Library\PhotoAlbum.Library.csproj", "{CD2F5255-15F2-4413-9D88-FABB85C2D62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.FileAccess", "PhotoAlbum.FileAccess\PhotoAlbum.FileAccess.csproj", "{92EB06B9-1CBE-4492-A9AC-82AC42F60A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibrary.Common", "PhotoLibrary.Common\PhotoLibrary.Common.csproj", "{8762212B-E43A-4028-9447-52089EB19090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Library.DAL", "PhotoAlbum.Library.DAL\PhotoAlbum.Library.DAL.csproj", "{C49D3120-A099-4848-8932-290D94E257A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1616FB59-091F-482C-A26B-D824B933C26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingApp", "TestingApp\TestingApp.csproj", "{925CF053-5E6B-4E8F-B158-D7949E802A24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +27,31 @@ Global
 		{0DB5E2BB-AA0F-4424-8A6F-46C056CE26BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB5E2BB-AA0F-4424-8A6F-46C056CE26BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DB5E2BB-AA0F-4424-8A6F-46C056CE26BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2F5255-15F2-4413-9D88-FABB85C2D62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2F5255-15F2-4413-9D88-FABB85C2D62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2F5255-15F2-4413-9D88-FABB85C2D62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2F5255-15F2-4413-9D88-FABB85C2D62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EB06B9-1CBE-4492-A9AC-82AC42F60A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EB06B9-1CBE-4492-A9AC-82AC42F60A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EB06B9-1CBE-4492-A9AC-82AC42F60A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EB06B9-1CBE-4492-A9AC-82AC42F60A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8762212B-E43A-4028-9447-52089EB19090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8762212B-E43A-4028-9447-52089EB19090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8762212B-E43A-4028-9447-52089EB19090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8762212B-E43A-4028-9447-52089EB19090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49D3120-A099-4848-8932-290D94E257A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49D3120-A099-4848-8932-290D94E257A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49D3120-A099-4848-8932-290D94E257A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49D3120-A099-4848-8932-290D94E257A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925CF053-5E6B-4E8F-B158-D7949E802A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925CF053-5E6B-4E8F-B158-D7949E802A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925CF053-5E6B-4E8F-B158-D7949E802A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925CF053-5E6B-4E8F-B158-D7949E802A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{925CF053-5E6B-4E8F-B158-D7949E802A24} = {1616FB59-091F-482C-A26B-D824B933C26A}
 	EndGlobalSection
 EndGlobal
